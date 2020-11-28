@@ -1,0 +1,55 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro %}
+
+{% block content%}
+<div class="container-fluid">
+        <!-- General News Section  -->
+        <h3> Top general news</h3>
+        <hr>
+
+        {{ macro.displaySourceList(technology_sources)}}
+
+        <!-- Health News Section  -->
+        <h3> Top Health News</h3>
+        <hr>
+
+        {{ macro.displaySourceList(science_sources)}}
+
+		<!-- Business News Section  -->
+        <h3> Top Business News</h3>
+        <hr>
+
+        {{ macro.displaySourceList(business_sources)}}
+
+        <!-- Technology News Section  -->
+        
+        <h3> Top Technology News</h3>
+        <hr>
+
+        {{ macro.displaySourceList(general_sources)}}
+
+        <!-- Science News Section  -->
+        <h3> Top Science News</h3>
+        <hr>
+
+        {{ macro.displaySourceList(health_sources)}}
+
+        <!-- Entertainment News Section  -->
+        
+        <h3> Top Entertainment News Sources</h3>
+        <hr>
+
+
+        {{ macro.displaySourceList(entertainment_sources)}}
+
+        <!-- Sports News Section  -->
+        
+        <h3> Top Sports News Sources</h3>
+        <hr>
+
+        {{ macro.displaySourceList(sports_sources)}}
+	
+</div>
+
+
+{%endblock%}
