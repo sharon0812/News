@@ -67,36 +67,36 @@ def process_sources(sources_list):
 
 	return sources_results
 
-def get_articles(id):
-  '''
-	Function that processes the articles and returns a list of articles objects
-	'''
+# def get_articles(id):
+#   '''
+# 	Function that processes the articles and returns a list of articles objects
+# 	'''
 		
-  get_articles_url = articles_url.format(id,api_key)
+#   get_articles_url = articles_url.format(id,api_key)
 
-  with urllib.request.urlopen(get_articles_url) as url:
-			articles_results = json.loads(url.read())
+#   with urllib.request.urlopen(get_articles_url) as url:
+# 			articles_results = json.loads(url.read())
 
-			articles_object = None
-			if articles_results['articles']:
-				articles_object = process_articles(articles_results['articles'])
+# 			articles_object = None
+# 			if articles_results['articles']:
+# 				articles_object = process_articles(articles_results['articles'])
 
-			return articles_object
+# 			return articles_object
 
-def process_articles(articles_list):
+# def process_articles(articles_list):
   
-	articles_object = []
-	for article_item in articles_list:
-		# id = article_item['id']
-		author = article_item['author']
-		title = article_item['title']
-		description = article_item['description']
-		url = article_item['url']
-		image = article_item['urlToImage']
-		date = article_item['publishedAt']
+# 	articles_object = []
+# 	for article_item in articles_list:
+# 		# id = article_item['id']
+# 		author = article_item['author']
+# 		title = article_item['title']
+# 		description = article_item['description']
+# 		url = article_item['url']
+# 		image = article_item['urlToImage']
+# 		date = article_item['publishedAt']
 		
-		if image:
-			articles_result = Articles(id,author,title,description,url,image,date)
-			articles_object.append(articles_result)	
+# 		if image:
+# 			articles_result = Articles(id,author,title,description,url,image,date)
+# 			articles_object.append(articles_result)	
 
-	return articles_object
+# 	return articles_object
