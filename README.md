@@ -2,11 +2,9 @@
 * Sharon Anyango
 
 ## Project Description
-* This is an application that allows a user to generate and store passwords for various accounts.
-  The application runs on the  terminal and the user navigates through the app by using short codes.
-   
+*  AN application that  help  list and preview news articles from various sources.   
 ## Technology Used
-* Python3.8
+* Python3.9
 * Pip  
 
 ## Instalation Requirements
