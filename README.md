@@ -24,7 +24,7 @@
 * Delete saved credentials.
 
 ## Github Repo Link
-* https://github.com/sharon0812/Password-Locker
+* https://github.com/sharon0812/News
 
 ## Support and Contacts
 * anyangosharon26@gmail.com
