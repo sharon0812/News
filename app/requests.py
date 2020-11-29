@@ -100,4 +100,3 @@ def process_articles(articles_list):
 			articles_object.append(articles_result)	
 
 	return articles_object
-# sdfghhh
