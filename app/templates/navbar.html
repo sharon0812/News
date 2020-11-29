@@ -1,32 +1,18 @@
-{% macro displaySourceList(source_list) %}
+<div class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/"> NEWS HIGHLIGHTS </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/">HOME</a></li>
+        </div>
 
-	{% for source_row in source_list |batch(4)%}
-        <div class="row">
-        
-            
-        {% for sources in source_row %}
-            <div class="col-md-3">
-                
-                <div class="panel panel-warning">
-                    <div class="panel-heading">
-                        <a href="/sources/{{sources.id}}">
-                            {{ sources.name}}
-                        </a>
-                    </div>
-                    <div class="panel-body">
-                        <p>
-                            {{ sources.description |truncate(100)}}
-
-                        </p>
-                        <a href="/sources/{{sources.id}}" class="btn btn-info btn-sm">Visit {{sources.name}}</a>
-                    </div>
-                    
-    
-                </div>
-            </div>
-        {% endfor %}
-            
     </div>
-{% endfor %}
-
-{% endmacro %}
+</div>

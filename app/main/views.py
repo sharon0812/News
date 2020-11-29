@@ -10,10 +10,10 @@ def index():
 	'''
 	view root page function that returns the index the page and its data
 	'''
-    health_sources = get_sources('health')
-    business_sources = get_sources('business')
-    technology_sources = get_sources('technology')
-    science_sources = get_sources('science')
+	health_sources = get_sources('health')
+	business_sources = get_sources('business')
+	technology_sources = get_sources('technology')
+	science_sources = get_sources('science')
 	general_sources = get_sources('general')
 	entertainment_sources = get_sources('entertainment')
 	sports_sources = get_sources('sports')
