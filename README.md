@@ -6,6 +6,11 @@
 ## Technology Used
 * Python3.9
 * Pip  
+* Vitual environment
+* Flask
+* Html
+* Bootstrap
+
 
 ## Instalation Requirements
 * Open your terminal.
