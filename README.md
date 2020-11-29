@@ -11,17 +11,14 @@
 * Html
 * Bootstrap
 
-
-## Instalation Requirements
-* Open your terminal.
-* Git clone this repo on your terminal.
-* Cd password-locker then code to open your Visual Studio Code.
-* run this comand python3 according to the version of the python you are using.
-
 ## Features
 *  See all news sources provided
 *  Able to see articles from specific source of news
 *  See all top headlines
+
+## BDD
+* The user is able to view the headlines of different movies according to there categories and also go ahead and read more about    about the news in details.
+
 
 ## Github Repo Link
 * https://github.com/sharon0812/News
