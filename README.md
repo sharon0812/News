@@ -14,14 +14,9 @@
 * run this comand python3 according to the version of the python you are using.
 
 ## Features
-* Create account.
-* Log into your account.
-* Add credentials for different accounts.
-* Store and generate password.
-* Sees a list of all your saved credential.
-* Search for the saved credential.
-* Copy the credentials.
-* Delete saved credentials.
+*  See all news sources provided
+*  Able to see articles from specific source of news
+*  See all top headlines
 
 ## Github Repo Link
 * https://github.com/sharon0812/News
